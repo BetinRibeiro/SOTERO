@@ -8,7 +8,7 @@ import org.hibernate.Transaction;
 import org.hibernate.criterion.Order;
 import org.hibernate.criterion.Restrictions;
 
-import Hibernate.HibernateUtil;
+import Persistence.HibernateUtil;
 
 
 
