@@ -7,5 +7,11 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/calendar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/freechart"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/tatoo"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hibernate"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/itext"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/PostgreSQL"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/free"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/too"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/cal"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

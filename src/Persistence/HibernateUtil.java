@@ -14,7 +14,7 @@ public class HibernateUtil {
 			
 			//o xml é o mapeamento e é feito de forma automatica 
 			//coloca todas as libs e cria um cfg,xml
-			con.configure("Hibernate/hibernate.cfg.xml");
+			con.configure("Persistence/hibernate.cfg.xml");
 			return con.buildSessionFactory();
 		} catch (Throwable e) {
 			System.out.println("Deu erro : " +e);

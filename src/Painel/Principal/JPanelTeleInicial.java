@@ -79,8 +79,8 @@ public class JPanelTeleInicial extends JFrame implements ActionListener {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					UIManager
-							.setLookAndFeel("com.jtattoo.plaf.smart.SmartLookAndFeel");
+//					UIManager
+//							.setLookAndFeel("com.jtattoo.plaf.smart.SmartLookAndFeel");
 					JPanelTeleInicial frame = new JPanelTeleInicial();
 					frame.setVisible(true);
 				} catch (Exception e) {
@@ -423,7 +423,7 @@ public class JPanelTeleInicial extends JFrame implements ActionListener {
 			// remove o painel que esta amostra, seta nesse painel o novo e
 			// adiciona novamente ao frame principal
 			contentPane.remove(painelModular);
-			painelModular = new JPanelVenda();
+			painelModular = new JPanelMenu();
 			getContentPane().add(painelModular);
 
 			// parece que só pega com isso aqui nem sei exatamente o porque.
